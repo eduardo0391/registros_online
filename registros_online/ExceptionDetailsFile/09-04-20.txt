@@ -1,0 +1,96 @@
+-----------Exception Details on  9/4/2020 20:19:16-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written11 Date: 9/4/2020 20:19:16
+
+Error Line Numero : nea 312
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : No se reconoce la cadena como un valor de DateTime válido. Hay una palabra desconocida a partir del índice 0.
+
+ Error Page Url: http://localhost:54575/usuario/enviarMailActivacion
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  9/4/2020 20:19:25-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written11 Date: 9/4/2020 20:19:25
+
+Error Line Numero : nea 312
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : No se reconoce la cadena como un valor de DateTime válido. Hay una palabra desconocida a partir del índice 0.
+
+ Error Page Url: http://localhost:54575/usuario/enviarMailActivacion
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  9/4/2020 20:22:12-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written11 Date: 9/4/2020 20:22:12
+
+Error Line Numero : nea 312
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : No se reconoce la cadena como un valor de DateTime válido. Hay una palabra desconocida a partir del índice 0.
+
+ Error Page Url: http://localhost:54575/usuario/enviarMailActivacion
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/9/2020 8:25:01 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written11 Date: 4/9/2020 8:24:59 PM
+
+Error Line Numero : ine 312
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : The string was not recognized as a valid DateTime. There is an unknown word starting at index 0.
+
+ Error Page Url: http://localhost:6060/usuario/enviarMailActivacion
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

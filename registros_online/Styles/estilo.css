@@ -1,0 +1,312 @@
+﻿aside { 
+  position: relative;
+float:left; 
+  top: 0px;
+  bottom: 0px;
+}
+    .ui-widget-overlay {
+        background: rgba(0,0,0,3.4);
+        position: fixed;
+    }
+
+    .ui-dialog-titlebar-close {
+        visibility: hidden;
+    }
+.field-validation-valid
+{
+    display: none;
+}
+.validation-summary-valid
+{
+    display: none;
+}
+ footer {
+     height: 420px;
+    margin: 5px 23px 7px 0px;
+    padding: 10px;
+    float: right;
+     background: #f3f3f3;
+     clear:both; }
+
+
+.ui-widget-overlay {
+   background: rgba(0,0,0,0.4);
+   position:fixed;
+}
+.ui-dialog {
+    z-index: 999;
+    position: fixed;
+    top: 150px;    
+   width:500px !important;
+}
+
+thead {
+    font-weight: bold;
+}
+.table-hover tbody tr:hover td {
+    background:#ddd;
+}
+.pagination ul li {
+display: inline;
+width:150px;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.botones {
+    font-size: 0px !important;
+    line-height: 0px !important;
+    padding: 0px !important;
+}
+
+/*selecciona un tag a que tenga como padre una tag li como class="DISABLE"*/
+li.disabled a {
+    color: #777 !important;
+    cursor: not-allowed !important;
+    background-color: #fff !important;
+    border-color: #ddd !important;
+}
+/* paginacion general*/
+.pagination-small ul li a {
+    cursor: pointer;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #428bca;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+/*paginacion cuando se hace foco*/
+.pagination ul li a:hover {
+    cursor: pointer;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #fff;
+    text-decoration: none;
+    background-color: #428bca;
+    border: 1px solid #ddd;
+}
+/*paginacion cuando queda activo*/
+.pagination ul li.active a {
+    color: #fff;
+    background-color: #428bca;
+}
+
+body {
+
+    color: #555;
+}
+
+h1 {
+    margin-top: 0;
+    float: left;
+}
+
+#tabla td {
+    padding: 0px 8px;
+}
+
+
+td > p {
+
+    margin: 2px 0 2px;
+}
+
+.total {
+    /*float:right;
+    margin-top:10px;
+    margin-right:30px;*/
+}
+
+.fieldset {
+padding-right: 10px;
+    border: solid 1px #ddd;
+    padding: 0px 12px 12px;
+    /*margin: 18px 0;*/
+    -webkit-border-radius: 3px;
+}
+.derecho {
+text-align: -webkit-right;
+}
+.legend{
+    display: block;
+    width: auto; 
+    margin-bottom: 0px;
+    font-size: 19px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+        }
+.agregar {
+      margin-top: 10px;
+}
+.panel-body {
+padding: 5px 15px 15px !important;
+}
+
+.divAgregar {
+    padding: 30px 15px;
+    text-align: right;
+}
+
+.tituloPrincipal {
+    margin-top: 0px!important;
+    font-size: 22px;
+    line-height: inherit;
+    color: #333;
+}
+.input-sm {
+border: 1px solid #ccc;
+}
+.ui-widget-overlay
+    {
+        background: #666666 url(images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat;
+        opacity: .5;
+        filter: Alpha(Opacity=50);
+    }
+
+.ui-widget-overlay {
+    background: url("images/ui-bg_diagonals-thick_20_666666_40x40.png") repeat scroll 50% 50% #666666;
+    opacity: 0.5;
+}
+.ui-dialog {
+    z-index: 999;
+    position: fixed;
+    top: 150px;    
+}
+
+#tabla > thead > tr > td > a {
+    font-family:'Open Sans', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    /*color: white;*/
+    font-size: 14px;
+
+}
+
+
+#tabla > tbody > tr {
+background-color:white;
+
+}
+#main-menu > li> a > i {
+width: 45px;
+}
+
+ .demo-container {
+            box-sizing: border-box;
+            width: 100%;
+            /*width: 50%;*/
+            height: 450px;
+            /*padding: 20px 15px 15px 15px;*/
+            margin: 10px auto 0px auto;
+            border: 1px solid #ddd;
+            background: #fff;
+            background: linear-gradient(#f6f6f6 0, #fff 50px);
+            background: -o-linear-gradient(#f6f6f6 0, #fff 50px);
+            background: -moz-linear-gradient(#f6f6f6 0, #fff 50px);
+            background: -webkit-linear-gradient(#f6f6f6 0, #fff 50px);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+            -moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+.demo-placeholder {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.2em;
+    padding: 0px;
+    position: relative;
+}
+
+
+.vacio {
+     margin-top: 225px;
+     margin-left: 35%;
+ }
+
+.ui-dialog {
+    z-index: 999;
+    position: fixed;
+    top: 150px;
+    width: 300px !important;
+}
+
+label {
+       font-weight: normal !important;
+}
+
+.labelBusqueda {
+width: 80px;
+margin-bottom: 10px;
+}
+
+.row_busqueda {
+ margin-bottom:15px;
+}
+@media(max-width:768px) {
+    .lineaArriba {
+        border-top: 1px solid #eee;
+        margin-top: 15px;
+    }
+    .row_busqueda {
+        margin-top: 15px;
+    }
+
+}
+
+.dropdown-menu  {
+    height: auto;
+    max-height: 300px;
+    overflow-x: hidden;
+}
+.divPersonalizado {
+    height: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+}
+
+.itemSeleccionado
+{
+    color: #fff !important;
+    background-color: #428bca;
+    border-color: #357ebd;
+ }
+
+    .itemSeleccionado:hover,
+.itemSeleccionado:focus,
+.itemSeleccionado.focus,
+.itemSeleccionado:active,
+.itemSeleccionado.active {
+  color: black !important;
+  background-color: #3071a9;
+  border-color: #285e8e;
+}
+
+.ocultar {
+    visibility: hidden !important;
+    height: 0px!important;
+    border: 0px!important;
+    padding: 0px!important;
+}
+
+.referencia:hover {
+ color: #23527c!important;
+  text-decoration: underline!important;
+  background-color: white !important;
+}
+
+.referencia {
+ color: #337ab7 !important;
+  text-decoration: none!important;
+}

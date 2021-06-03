@@ -1,0 +1,109 @@
+﻿<div class="modal fade" id="modalUser">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            @model registros_online.Models.UserViewModel
+
+            @{
+                ViewBag.Title = "Create";
+            }
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">x</button>
+                <h4 class="modal-title">Nuevo Usuario</h4>
+            </div>
+
+
+
+            <div class="modal-body">
+
+                @using (Ajax.BeginForm("UpdateUser", "UsersManager",
+                            new AjaxOptions
+                            {
+                                HttpMethod = "POST",
+                                InsertionMode = InsertionMode.Replace,
+                                OnSuccess = "actualizarLista"
+                            }, new { @id = "frmID" }))
+                {
+
+                    @*@Html.AntiForgeryToken()*@
+
+                    <div class="form-horizontal">
+
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            @Html.HiddenFor(m => m.id_user, new { @id = "id_user", @Name = "id_user" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.email, "email", new { @class = "col-md-3 control-label" })
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.email, new { @class = "form-control", @maxlength = "500" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.user, "name", new { @class = "col-md-3 control-label" })
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.user, new { @class = "form-control", @maxlength = "500" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.name, "name", new { @class = "col-md-3 control-label" })
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.name, new { @class = "form-control", @maxlength = "500" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.ExpirationDate, "Fecha expiración ", new { @class = "col-md-3 control-label" })
+                            <div class="col-md-4">
+                                @Html.TextBoxFor(m => m.ExpirationDate, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.shipmentDate, "Fecha envío", new { @class = "col-md-3 control-label" })
+                            <div class="col-md-4">
+                                @Html.TextBoxFor(m => m.shipmentDate, new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.creationDate, "Fecha de creación", new { @class = "col-md-3 control-label" })
+                            <div class="col-md-4">
+                                @Html.TextBoxFor(m => m.creationDate, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.codActivation, "Código activación", new { @class = "col-md-3 control-label" })
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.codActivation, new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.IsConfirm, "Confirmado", new { @class = "col-md-3 control-label" })
+                            <div class="col-md-3_5">
+                                @Html.CheckBoxFor(m => m.IsConfirm, new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.IsSuperUser, "Es Super usuario", new { @class = "col-md-3 control-label" })
+                            <div class="col-md-3_5">
+                                @Html.CheckBoxFor(m => m.IsSuperUser, new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            @Html.ValidationSummary(false, "", new { @class = "text-danger col-md-offset-2 text-left" })
+
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <input type="submit" class="btn btn-primary" value="Guardar" />
+
+                        </div>
+                    </div>
+
+                }
+
+            </div>
+
+        </div>
+    </div>
+</div>

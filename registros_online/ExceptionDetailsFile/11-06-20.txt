@@ -1,0 +1,168 @@
+-----------Exception Details on  6/11/2020 10:04:36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/11/2020 10:04:36 PM
+
+Error Line Number : ine 508
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Nullable object must have a value.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  6/11/2020 10:06:49 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/11/2020 10:06:49 PM
+
+Error Line Number : ine 508
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Nullable object must have a value.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  6/11/2020 10:07:03 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/11/2020 10:07:03 PM
+
+Error Line Number : ine 508
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Nullable object must have a value.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  6/11/2020 10:10:43 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/11/2020 10:10:43 PM
+
+Error Line Number : ine 508
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Nullable object must have a value.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  6/11/2020 10:12:45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/11/2020 10:12:45 PM
+
+Error Line Number : ine 508
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Nullable object must have a value.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  6/11/2020 10:18:22 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/11/2020 10:18:22 PM
+
+Error Line Number : ine 508
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Nullable object must have a value.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  6/11/2020 10:19:49 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/11/2020 10:19:49 PM
+
+Error Line Number : ine 508
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Nullable object must have a value.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

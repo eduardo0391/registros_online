@@ -1,0 +1,13 @@
+﻿<div class="modal-body">
+
+    <p class="text-danger">
+        Está seguro que desea eliminar la categoría <strong> {{categoriaaEliminar.descripcion}} </strong>?
+    </p>
+        <hr>
+
+        <div class="col-md-12 text-right">
+            <button type="button" class="btn btn-danger " data-toggle="modal" ng-click="eliminarCategoria()" onclick="$('#eliminarCategoria').modal('toggle');">Eliminar</button>
+            <button type="button" class="btn btn-default" data-toggle="modal" onclick="$('#eliminarCategoria').modal('toggle');">Cancelar</button>
+        </div>
+
+</div>

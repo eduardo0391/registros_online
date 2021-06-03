@@ -1,0 +1,133 @@
+﻿@model registros_online.Models.RegisterViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+  <!-- Angular Material requires Angular.js Libraries -->
+<script src="~/Scripts/Angular/angular-animate.min.js"></script>
+<script src="~/Scripts/Angular/angular-aria.min.js"></script>
+<script src="~/Scripts/Angular/angular-messages.min.js"></script>
+
+<!-- Angular Material Library -->
+<script src="~/Scripts/Angular/angular-material.min.js"></script>
+
+<script src="~/Scripts/general.js"></script>
+<script src="~/Scripts/home/registros.js"></script>
+<script src="~/Scripts/home/angularRegistro.js"></script>
+<script src="~/Scripts/scrollable-table.js"></script>
+
+<link href="~/Styles/estilosIngresoEgreso.css" rel="stylesheet" />
+
+@if (ViewBag.tipo == 1)
+{
+    <script>
+    $("#ingresos").addClass("active-menu")
+    </script>
+}
+else
+{       
+      <script>
+    $("#egresos").addClass("active-menu")
+      </script>
+}
+<style>
+ 
+
+</style>
+<div ng-app="myApp">
+    <div ng-controller="egresosController" ng-init="tipo=@ViewBag.tipo; categoriaNueva.id_tipo=@ViewBag.tipo; cargarAnios()" id="angularId">
+        <div style="text-align:center">
+
+            <h4 class="tituloPrincipal">@ViewBag.titulo</h4>
+
+        </div>
+
+        <div class="modal fade" id="newRecordModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    @Html.Partial("~/Views/home/nuevoRegistro.cshtml", new registros_online.Models.RegisterViewModel(@ViewBag.tipo))
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="divExport" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content" style="width: 340px;">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">x</button>
+                        <h4 class="modal-title">Exportar en xls</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        Seleccione el tipo de descarga que desea realizar.
+                        <br />
+                        <a href="/home/ExportData?anio={{selectAnios}}&mes={{selectMeses.id}}&tipo={{tipo}}&filtrado=true" class="btn btn-default agregar" onclick="$('#divExport').modal('toggle');">Datos filtrados</a>
+                        <a href="/home/ExportData?tipo={{tipo}}&filtrado=false" class="btn btn-default agregar" onclick="$('#divExport').modal('toggle');">Todos</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="categoriaModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">x</button>
+                        <h4 class="modal-title">Categorías</h4>
+                    </div>
+                    <div class="modal-body divPersonalizado">
+                        @Html.Partial("~/Views/Category/listaCategorias.cshtml")
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="messageCategory">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">x</button>
+                        <h4 class="modal-title">{{titleMessageCategory}}</h4>
+                    </div>
+                    <div class="modal-body divPersonalizado">
+                        {{messageCategory}}
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="eliminarCategoria">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">x</button>
+                        <h4 class="modal-title">Eliminar Categoría</h4>
+                    </div>
+                    <div class="modal-body divPersonalizado">
+                        @Html.Partial("~/Views/Category/eliminarCategoria.cshtml")
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="result">
+            @Html.Partial("~/Views/home/listaRegistros.cshtml", new registros_online.Models.DateViewModel())
+        </div>
+
+        <div class="modal fade" id="PayMercadoPago">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    @Html.Partial("~/Views/home/PayMercadoPago.cshtml")
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

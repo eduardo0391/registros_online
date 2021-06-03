@@ -1,0 +1,144 @@
+-----------Exception Details on  4/25/2020 5:39:35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:39:35 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:42:53 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:42:53 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  25/4/2020 17:45:29-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 25/4/2020 17:45:29
+
+Error Line Number : nea 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:54575/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  25/4/2020 17:46:09-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 25/4/2020 17:46:09
+
+Error Line Number : nea 448
+
+Error Message: PropertyNotFoundException
+
+Exception Type: NHibernate.PropertyNotFoundException
+
+Error Location : Could not find a getter for property 'Id_usuario' in class 'registros_online.Models.UserPermission'
+
+ Error Page Url: http://localhost:54575/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:48:11 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:48:11 PM
+
+Error Line Number : ine 448
+
+Error Message: PropertyNotFoundException
+
+Exception Type: NHibernate.PropertyNotFoundException
+
+Error Location : Could not find a getter for property 'description' in class 'registros_online.Models.UserPermission'
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:49:10 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:49:10 PM
+
+Error Line Number : ine 448
+
+Error Message: PropertyNotFoundException
+
+Exception Type: NHibernate.PropertyNotFoundException
+
+Error Location : Could not find a getter for property 'description' in class 'registros_online.Models.UserPermission'
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

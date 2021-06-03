@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+ assembly="registros_online"
+ namespace="registros_online.Models"
+ auto-import="true">
+  <class name="User" table="usuarios">
+    <id name="id_user" column="id_usuario" access="property" type="integer">
+        <generator class="native" />
+    
+    </id>
+
+    <property name="user" access="property"
+    column ="usuario" type="String"></property>
+    
+    <property name="password" access="property"
+     column ="clave" type="String"></property>
+
+    <property name="creationDate" access="property"
+     column ="fechaCreacion" type="DateTime"></property>
+
+
+    <property name="name" access="property"
+     column ="nombre" type="String"></property>
+
+    <property name="email" access ="property"
+     column ="email" type="String"></property>
+    
+    <property name="codActivation" access ="property"
+     column ="codiActivacion" type="String"></property>
+    
+    <property name="shipmentDate" access="property"
+     column ="fechaEnvio" type="DateTime"></property>
+    
+    <property name="IsConfirm" access="property"
+     column ="confirmado" type="bool"></property>
+
+    <property name="ExpirationDate" access="property"
+    column ="expirationDate" type="DateTime"></property>
+
+    <property name="IsSuperUser" access="property"
+     column ="IsSuperUser" type="bool"></property>
+    
+  </class>
+
+</hibernate-mapping>

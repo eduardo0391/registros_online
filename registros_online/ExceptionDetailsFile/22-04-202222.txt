@@ -1,0 +1,48 @@
+-----------Exception Details on  4/22/2020 8:59:49 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/22/2020 8:59:49 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Named query not known: consultaNativa
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/22/2020 9:02:18 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/22/2020 9:02:18 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : unknown class registros_online.Models.consultaNativa, registros_online
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

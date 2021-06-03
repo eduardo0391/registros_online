@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+ assembly="registros_online"
+ namespace="registros_online.Models"
+ auto-import="true">
+  
+  <sql-query name="consultaNativa">
+    <return class="consultaNativa"/>
+    <![CDATA[
+    select  COUNT(precioUnitario * cantidad) as total,month (fecha) as mes, YEAR(fecha) as año from gastos group by  YEAR(fecha), month (fecha)
+    ]]>
+  </sql-query>
+
+</hibernate-mapping>

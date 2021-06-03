@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+ assembly="registros_online"
+ namespace="registros_online.Models"
+ auto-import="true">
+  <class name="UserPermission" table="dbo.UserPermissions">
+
+    <id name="Id_user" column="Id_usuario" type="int">
+      <generator class="identity" />
+    </id>
+
+    <property name="Id_permission" access="property"
+     column ="Id_permission" type="int"></property>
+
+    <property name="Description" access="property"
+     column ="Description" type="String"></property>
+
+    <property name="IsRequiredPay" access="property"
+     column ="IsRequiredPay" type="bool"></property>
+    
+  </class>
+
+</hibernate-mapping>

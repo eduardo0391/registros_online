@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "registros_online", "registros_online\registros_online.csproj", "{F9F83DAD-8852-48F6-A43E-48910BE78E49}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MapDatabase", "MapDatabase\MapDatabase.sqlproj", "{B1913B71-1F12-4CEC-A08F-FC0EB8F004BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		smartasp|Any CPU = smartasp|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9F83DAD-8852-48F6-A43E-48910BE78E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F83DAD-8852-48F6-A43E-48910BE78E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F83DAD-8852-48F6-A43E-48910BE78E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F83DAD-8852-48F6-A43E-48910BE78E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F83DAD-8852-48F6-A43E-48910BE78E49}.smartasp|Any CPU.ActiveCfg = smartasp|Any CPU
+		{F9F83DAD-8852-48F6-A43E-48910BE78E49}.smartasp|Any CPU.Build.0 = smartasp|Any CPU
+		{B1913B71-1F12-4CEC-A08F-FC0EB8F004BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1913B71-1F12-4CEC-A08F-FC0EB8F004BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1913B71-1F12-4CEC-A08F-FC0EB8F004BE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B1913B71-1F12-4CEC-A08F-FC0EB8F004BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1913B71-1F12-4CEC-A08F-FC0EB8F004BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1913B71-1F12-4CEC-A08F-FC0EB8F004BE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B1913B71-1F12-4CEC-A08F-FC0EB8F004BE}.smartasp|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1913B71-1F12-4CEC-A08F-FC0EB8F004BE}.smartasp|Any CPU.Build.0 = Debug|Any CPU
+		{B1913B71-1F12-4CEC-A08F-FC0EB8F004BE}.smartasp|Any CPU.Deploy.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBC3A259-DCE4-43AF-AFF8-3B827B8A5ED6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://0931eduardo.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = registros_online\\registros_online.csproj
+		SccProjectName1 = registros_online
+		SccLocalPath1 = registros_online
+		SccProjectUniqueName2 = MapDatabase\\MapDatabase.sqlproj
+		SccProjectName2 = MapDatabase
+		SccLocalPath2 = MapDatabase
+	EndGlobalSection
+EndGlobal

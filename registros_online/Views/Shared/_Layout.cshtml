@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registros</title>
+
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery-ui.js"></script>
+    <script src="~/Scripts/jquery.metisMenu.js"></script>
+    @* lo que declare yo *@
+    <link href="~/Scripts/jquery-ui-1.9.2.custom.css" rel="stylesheet" />
+    <link href="~/Styles/estilo.css" rel="stylesheet" />
+    <link href="~/Styles/Angular material/angular-material.min.css" rel="stylesheet" />
+
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/angular-route.js"></script>
+    <script src="~/Scripts/ui-bootstrap-tpls-0.6.0.js"></script>
+
+    <!-- BOOTSTRAP STYLES-->
+    <link href="~/Styles/plantilla/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLES dibujos de cada icono-- >-->
+    <link href="~/Styles/plantilla/css/font-awesome.css" rel="stylesheet" />
+    <!-- MORRIS CHART STYLES-->
+    <link href="~/Styles/plantilla/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+
+    <!-- CUSTOM STYLES-->
+    <link href="~/Styles/plantilla/css/custom.css" rel="stylesheet" />
+    <!-- GOOGLE FONTS-->
+    <link href="~/Styles/plantilla/css/css.css" rel="stylesheet" />
+
+</head>
+
+  <body>
+      <div id="wrapper">
+          <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0;">
+
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="/home">Mis registros Online</a>
+              </div>
+
+              <div style="color: white;
+                        padding: 10px 50px 5px 50px;
+                        float: right;
+                        font-size: 16px;">
+
+                  @if (this.User.Identity.IsAuthenticated)
+                  {
+                      @ViewBag.usuario
+                  }
+
+                  <a href="/usuario/LogOut" style="margin-left:20px" class="btn btn-danger square-btn-adjust">Salir</a>
+
+              </div>
+
+
+          </nav>
+
+
+
+          <nav class="navbar-default navbar-side" role="navigation">
+              <div class="sidebar-collapse">
+                  <ul class="nav" id="main-menu">
+                      <li class="text-center">
+                          <img src="~/Styles/plantilla/img/icono.png" class="user-image img-responsive" />
+                      </li>
+                      <li>
+                          <a id="egresos" href="/home"><i class="fa fa-arrow-circle-o-up fa-3x"></i> Egresos</a>
+                      </li>
+                      <li>
+                          <a href="/home/Ingresos" id="ingresos"><i class="fa fa-arrow-circle-o-down fa-3x"></i> Ingresos</a>
+                      </li>
+                      <li>
+                          <a href="/home/egresosAñoMes" id="egresosxMeses"><i class="fa fa-bar-chart fa-3x"></i> Egresos por mes</a>
+                      </li>
+                      <li>
+                          <a href="/home/ingresosAñoMes" id="ingresosxMeses"><i class="fa fa-bar-chart fa-3x"></i> Ingresos por mes</a>
+                      </li>
+                      <li>
+                          <a href="/usuario/actualizarUsuario" id="actualizarPerfil"><i class="fa fa-user fa-3x"></i>Configurar Perfil</a>
+                      </li>
+                      @if (HttpContext.Current.User.IsInRole("Admin"))
+                      {
+                          <li>
+                              <a href="/UsersManager/Index" id="actualizarPerfil"><i class="fa fa-user fa-3x"></i>Lista usuarios</a>
+                          </li>
+                      }
+                  </ul>
+
+              </div>
+          </nav>
+          <!-- /. NAV SIDE  -->
+          <div id="page-wrapper">
+              <div id="page-inner">
+
+                  @RenderBody()
+
+                  <!-- /. PAGE INNER  -->
+              </div>
+              <!-- /. PAGE WRAPPER  -->
+          </div>
+          <!-- /. WRAPPER  -->
+          <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+          <!-- JQUERY SCRIPTS -->
+          <!-- BOOTSTRAP SCRIPTS -->
+          <script src="~/Scripts/bootstrap.min.js"></script>
+          <script src="~/Scripts/ui-bootstrap-tpls-0.6.0.js"></script>
+
+          <!-- Global site tag (gtag.js) -  Esto es para llevar la cuenta de las visitas Google Analytics -->
+          @*<script async src="https://www.googletagmanager.com/gtag/js?id=UA-98515128-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-98515128-2');
+        </script>*@
+
+
+      </div>
+  
+</body>
+  
+</html>
+

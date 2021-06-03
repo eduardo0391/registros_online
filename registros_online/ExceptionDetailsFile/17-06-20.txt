@@ -1,0 +1,216 @@
+-----------Exception Details on  6/17/2020 8:01:55 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/17/2020 8:01:55 PM
+
+Error Line Number : ine 508
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Nullable object must have a value.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  6/17/2020 8:03:46 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/17/2020 8:03:46 PM
+
+Error Line Number : ine 508
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Nullable object must have a value.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  6/17/2020 8:18:11 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/17/2020 8:18:11 PM
+
+Error Line Number : ine 518
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : String was not recognized as a valid DateTime.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  6/17/2020 8:49:56 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/17/2020 8:49:56 PM
+
+Error Line Number : ine 521
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : String was not recognized as a valid DateTime.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  6/17/2020 8:56:40 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/17/2020 8:56:40 PM
+
+Error Line Number : ine 518
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : String was not recognized as a valid DateTime.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  6/17/2020 9:07:11 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/17/2020 9:07:11 PM
+
+Error Line Number : ine 518
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : String was not recognized as a valid DateTime.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  6/17/2020 9:07:22 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/17/2020 9:07:22 PM
+
+Error Line Number : ine 518
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : String was not recognized as a valid DateTime.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  6/17/2020 9:13:24 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/17/2020 9:13:24 PM
+
+Error Line Number : ine 518
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : String was not recognized as a valid DateTime.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  6/17/2020 9:18:26 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 6/17/2020 9:18:26 PM
+
+Error Line Number : ine 520
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : String was not recognized as a valid DateTime.
+
+ Error Page Url: http://localhost:6060/usuario/UpdateUser?Length=7
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

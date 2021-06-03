@@ -1,0 +1,30 @@
+﻿
+@model registros_online.Models.UpdateUserViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/home/angularUsuario.js"></script>
+
+<div class="row" ng-app="myApp" ng-controller="usuarioController" >
+    <div style="text-align:center">
+        <h4 class="tituloPrincipal">Actualizar Usuario</h4>
+    </div>
+    <br />
+
+    @*para actualizar los datos del usuario*@
+    <div class="col-md-5 col-izquierda">
+        @Html.Partial("~/Views/usuario/usuarioUpdate/actualizarUsuario.cshtml", Model)
+    </div>
+
+    @*para actualizar el password*@
+    <div class="col-md-5 col-derecha">
+        @Html.Partial("~/Views/usuario/usuarioUpdate/actualizarPassword.cshtml")
+    </div>
+
+    @*para confirmar la clave y cambiar el email*@
+    @Html.Partial("~/Views/usuario/usuarioUpdate/popupPassword.cshtml")
+</div>
+
+
+

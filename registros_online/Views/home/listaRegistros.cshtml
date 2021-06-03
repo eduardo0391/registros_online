@@ -1,0 +1,107 @@
+﻿
+
+
+<div class="panel panel-default">
+
+    <div class="panel-heading">
+        Filtros
+    </div>
+    <div class="panel-body">
+
+
+        <div class="col-md-2">
+            <label>
+                Año:
+            </label>
+            <select id="comboAnio" class="input-sm" data-ng-model="selectAnios" ng-change="cargarMeses()" ng-init="anios[0];cargarMeses()" data-ng-options="option for option in anios"></select>
+        </div>
+
+        <div class="col-md-2">
+            <label>
+                Mes:
+            </label>
+            <select id="comboMes" class="input-sm" data-ng-model="selectMeses" ng-change="volverCargar()" ng-init="meses[0]" data-ng-options="option.value for option in mesesAnio"></select>
+        </div>
+
+        <div class="col-md-2">
+            <label>
+                Cantidad:
+            </label>
+            <select data-ng-model="selectedOption" class="input-sm" ng-change="filas()" data-ng-options="option.name for option in opciones"></select>
+
+        </div>
+        <div class="col-md-4">
+            <label>
+                Buscar:
+            </label>
+            <input ng-model="busqueda" class="input-sm" />
+        </div>
+
+        <div class="col-md-2 text-right">
+            <button type="button" class="btn btn-primary agregar" data-toggle="modal" ng-click="agregar()" data-target="#newRecordModal">Agregar</button>
+            <button type="button" class="btn btn-default agregar" data-toggle="modal" data-target="#divExport">Exportar</button>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="table-responsive" ng-if="(registros|filter:busqueda).length > 0">
+
+    <table id="tabla" class="table table-striped table-bordered table-hover">
+        <thead>
+            <tr>
+                <td class="primero" style="text-align:center"><a href="" ng-click="order('producto') ">Producto</a>  </td>
+                <td class="segundo hidden" style="text-align:center"><a href="" ng-click="order('descripcion')">Descripcion</a>  </td>
+                <td class="tercero"><a href="" ng-click="order('fecha') ">Fecha</a>  </td>
+                <td class="sexto"><a href="" ng-click="order('precio') ">Monto</a>  </td>
+                <td class="septimo"> </td>
+                <td class="octavo"></td>
+                <td class="noveno"><input type="checkbox" ng-change="cambiarEstado(this.checkGeneral, this.usuarios)" ng-model="checkGeneral" /></td>
+            </tr>
+        </thead>
+
+        <tbody class="tbody">
+
+            <tr id="{{registro.id}}" ng-repeat='registro in (items = (registros | orderBy:predicate:reverse  | filter:busqueda))'>
+                <td class="primero">{{registro.movimiento}}</td>
+                <td class="segundo hidden">{{registro.descripcion}}</td>
+                @*<td class="tercero">{{registro.fecha | miFecha | date: 'dd-MM-yyyy'}}</td>*@
+                <td class="tercero">{{registro.formattedDate}}</td>
+                <td class="sexto">{{precioFormateado = ((registro.precio) | number:2| myNumber )}}</td>
+                <td class="septimo" style="width:40px !important;">
+                    <p class="botones" title="Edit">
+                        <button class="btn btn-primary btn-xs" data-target="#newRecordModal" data-title="Edit" data-toggle="modal" ng-click="editar(this.registro,precioFormateado)"><span class="glyphicon glyphicon-pencil"></span></button>
+                    </p>
+                </td>
+                <td class="octavo" style="width:40px!important;">
+                    <p data-placement="top" data-toggle="tooltip" class="botones" title="Delete">
+                        <button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" ng-click="showConfirm($event, registro.id)" data-target="#delete">
+                            <span class="glyphicon glyphicon-trash"></span>
+                        </button>
+                    </p>
+                </td>
+                <td class="noveno"><input type="checkbox" ng-change="sumar(registro.precio, registro.seleccionado)" ng-model="registro.seleccionado" /></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="paginacion" style="float:right" ng-show="selectedOption.value < cantidad ">
+
+        <pagination total-items="totalItems" on-select-page="setPage(page)" items-per-page="itemsPerPage" page="currentPage" max-size="maxSize" class="pagination-small" boundary-links="true" rotate="false"></pagination>
+    </div>
+    <div>
+        Total seleccionado:&nbsp;&nbsp;$ {{total|number:2|myNumber}}
+
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-md-4 text-danger" ng-if="(registros|filter:busqueda).length == 0">
+        No se han encontrados registros
+    </div>
+
+</div>
+
+

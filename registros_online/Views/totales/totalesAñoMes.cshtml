@@ -1,0 +1,178 @@
+﻿<script src="~/Scripts/graficos/jquery.flot.js"></script>
+<script src="~/Scripts/graficos/jquery.flot.pie.js"></script>
+
+@model registros_online.Models.RegisterViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script>
+    $("#main-menu > li a").each(function (indice, value) { value.className = "" })
+ 
+</script>
+
+
+@if (ViewBag.tipo == 2)
+{
+    <script>
+        $("#egresosxMeses").addClass("active-menu")
+    </script>
+}
+else 
+{
+    <script>
+        $("#ingresosxMeses").addClass("active-menu")
+    </script>
+}
+
+<script src="~/Scripts/home/angularEstadisticas.js"></script>
+        <div ng-app="myApp">
+            <div ng-controller="egresosController" id="angularId" ng-init="tipoMovimiento = @ViewBag.tipo; cargar()">
+                <div style="text-align:center">
+
+                    <h4 class="tituloPrincipal">@ViewBag.titulo</h4>
+
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Detalle
+                    </div>
+                    <div class="panel-body" style="margin-top: 10px;" >
+                        <div class="col-md-6 ">
+                            <div class="row row_busqueda">
+                                <div class="col-md-2">
+                                    <label  class="labelBusqueda">
+                                        Cantidad:
+                                    </label>
+                                    <select data-ng-model="selectedOption" class="input-sm" ng-change="seleccionarCantidad()" data-ng-options="option.name for option in opciones"></select>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <label  class="labelBusqueda">
+                                        Buscar:
+                                    </label>
+                                    <input ng-model="busqueda" class="input-sm" />
+                                </div>
+                            </div>
+                            <div ng-if="(registros|filter:busqueda).length > 0">
+
+
+                                <table id="tabla" class="table table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <td class="primeroEst" style="text-align:center"><a href="" ng-click="order('anio') ">Año</a>  </td>
+                                            <td class="segundoEst" style="text-align:center"><a href="" ng-click="order('mes')">Mes</a>  </td>
+                                            <td class="terceroEst"><a href="" ng-click="order('2') ">Total</a>  </td>
+                                            <td class="noveno"><input type="checkbox" ng-change="sumarTodo(this.totalCheck)" ng-model="totalCheck" /></td>
+
+                                        </tr>
+                                    </thead>
+
+                                    <tbody class="tbodyEst">
+                                        <tr ng-repeat='registro in  registros  | orderBy:predicate:reverse  | startFromGrid:(paginaActualPrincipal-1)*itemsPerPage | limitTo:itemsPerPage| filter:busqueda '>
+                                            <td class="primeroEst">{{anio  = registro[0]}}</td>
+                                            <td class="segundoEst">{{mes = registro[1].value}}</td>
+                                            <td class="terceroEst">{{totalReg = (registro[2]|number:2|myNumber)}}</td>
+                                            <td class="noveno"><input type="checkbox" ng-change="sumar({{registro[2]}}, registro.seleccionado)" ng-model="registro.seleccionado" /></td>
+                                        </tr>
+                                    <tbody>
+                                </table>
+
+                                <div class="col-md-12 ">
+                                    <div id="paginacion" style="float:right" ng-show="selectedOption.value <= registros.length">
+                                        <pagination total-items="registros.length" on-select-page="setPage(page)"
+                                                    items-per-page="itemsPerPage" page="currentPage" max-size="maxPaginas"
+                                                    class="pagination-small" boundary-links="true" rotate="false"></pagination>
+                                    </div>
+                                    <div class="col-md-12 total">
+                                        <label>
+                                            Total seleccionado:&nbsp;&nbsp;$ {{total|number:2|myNumber}}
+                                        </label>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="msjDialog">
+                                <pr>Total de la categoría:</pr>   <div id="informacion" style="float:right"></div>
+                                <br />
+                                <pr>Promedio por mes:</pr>  <div id="informacionPromedio" style="float:right"></div>
+                                <br /> <br />
+                                <input type="button" class="btn btn-default" style="float:right" id="cerrarVista" value="Cerrar" />
+                            </div>
+                        </div>
+                        <div class="col-md-6 lineaArriba"  ng-show="detallesRegistros.length > 0">
+                            <div class="row row_busqueda">
+                                <div class="col-md-2">
+                                    <label class="labelBusqueda">
+                                        Cantidad:
+                                    </label>
+                                    <select data-ng-model="selectedOptionDet" class="input-sm" ng-change="seleccionarCantDet()" data-ng-options="option.name for option in opciones"></select>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="labelBusqueda">
+                                        Buscar:
+                                    </label>
+                                    <input ng-model="busquedaDetalle" class="input-sm" />
+                                </div>
+                            </div>
+                            <div ng-if="(detallesRegistros|filter:busquedaDetalle).length > 0">
+
+                                <table id="tabla" class="table table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <td class="primeroEst" style="text-align:center"><a ng-click="orderCategory('0')" href="">Categoría</a>  </td>
+                                            <td class="segundoEst" style="text-align:center"><a ng-click="orderCategory('1')" href="">Total</a>  </td>
+                                            <td><input type="checkbox" ng-change="sumarTodoDetalle(checkGeneralDet.valor)" ng-model="checkGeneralDet.valor" /></td>
+                                  
+                                        </tr>
+                                    </thead>
+
+                                    <tbody class="tbodyEst">
+                                        <tr ng-repeat='productoItem in detallesRegistros | startFromGrid:(paginaActualDet-1)*itemsPerPageDet | limitTo:itemsPerPageDet |  filter:busquedaDetalle | orderBy:predicateCategories:reverseCategories '>
+                                            <td class="primeroEst">{{productoItem.movimiento}}</td>
+                                            <td class="segundoEst">{{productoItem.total|number:2|myNumber}}</td>
+                                            <td><input type="checkbox" name="checkGeneralDet" ng-change="sumarDetalle({{productoItem.total}}, productoItem.seleccionado)" ng-model="productoItem.seleccionado" /></td>
+                                        </tr>
+                                    <tbody>
+
+                                </table>
+                                <div class="col-md-12">
+
+                                    <div id="paginacion" style="float:right" ng-show="selectedOptionDet.value <= registros.length">
+                                        <pagination total-items="detallesRegistros.length" items-per-page="itemsPerPageDet"
+                                                    page="paginaActualDet" max-size="maxPaginasDet" class="pagination-small" boundary-links="true" rotate="false">
+
+                                        </pagination>
+                                    </div>
+                                    <div class="col-md-12 total">
+                                        <label>
+                                            Total seleccionado:&nbsp;&nbsp;$ {{totalDetalles|number:2|myNumber}}
+                                        </label>
+                                    </div>
+                                </div>
+
+                            </div>                            
+                        
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="demo-container">
+                        <div id="placeholder" class="demo-placeholder" ng-show="mesesSeleccionados.length > 0">
+
+                        </div>
+                        <div class="vacio" ng-show="mesesSeleccionados.length == 0">no hay datos para mostrar</div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script>
+            
+            $("#msjDialog").dialog({ modal: true, autoOpen: false, title: 'Información del registro', closeOnEscape: false });
+            $("#cerrarVista").on("click", function () { $("#msjDialog").dialog('close'); })
+        </script>

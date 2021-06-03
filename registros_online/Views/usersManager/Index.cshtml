@@ -1,0 +1,12 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/general.js"></script>
+<script src="~/Scripts/home/ManagerUser.js"></script>
+<script src="~/Scripts/home/angularManagerUser.js"></script>
+<div class="cuerpo">
+    <div ng-app="myApp">
+        @Html.Partial("~/Views/usersManager/GridUsers.cshtml")
+        @Html.Partial("~/Views/usersManager/ModalUser.cshtml")
+    </div>
+</div>

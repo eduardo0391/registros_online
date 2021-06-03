@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+ assembly="registros_online"
+ namespace="registros_online.Models"
+ auto-import="true">
+  <class name="MovementStatistics" table="dbo.estadisticasMovimientos">
+  <id name="id" column="row" type="int">
+      <generator class="identity" />
+    </id>
+
+    <property name="movimiento" access="property"
+     column="movimiento" type="String"></property>
+
+    <property name="fechaFormateada" access="property"
+     column ="fechaFormateada" type="String"></property>
+
+    <property name="total" access="property"
+     column ="total" type="Double"></property>
+
+  </class>
+
+</hibernate-mapping>

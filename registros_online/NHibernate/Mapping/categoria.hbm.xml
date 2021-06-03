@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+ assembly="registros_online"
+ namespace="registros_online.Models"
+ auto-import="true">
+  <class name="Category" table="dbo.categorias">
+    <id name="id" column="id" type="int">
+      <column name="id" />
+      <generator class="identity" />
+    </id>
+
+    <!--<property name="id" access="property"
+     column="id" type="integer"></property>-->
+    
+    <property name="id_user" access="property"
+     column ="id_user" type="integer"></property>
+
+    <property name="id_tipo" access="property"
+     column ="id_tipo" type="integer"></property>
+
+    <property name="descripcion" access="property"
+     column ="descripcion" type="String"></property>
+
+  </class>
+</hibernate-mapping>

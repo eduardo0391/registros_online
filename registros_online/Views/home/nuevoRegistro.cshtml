@@ -1,0 +1,105 @@
+﻿@model registros_online.Models.RegisterViewModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<div class="modal-header"   >
+    <button type="button" class="close" data-dismiss="modal">x</button>
+    <h4 class="modal-title">Nuevo Movimiento</h4>
+</div>
+
+
+
+<div class="modal-body" >
+
+        @using (Ajax.BeginForm("guardarRegistro", "home",
+                    new AjaxOptions
+                    {
+                        HttpMethod = "POST",
+                        InsertionMode = InsertionMode.Replace,
+
+                        OnSuccess = "actualizarLista"
+                    }, new { @id = "frmID" }))
+        {
+
+        @*@Html.AntiForgeryToken()*@
+
+            <div class="form-horizontal">
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(m => m.tipo, Model.tipo)
+                @Html.Hidden("id")
+                @Html.Hidden("fechaHoy", @DateTime.Now.ToString("dd/MM/yyyy"))
+
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.descripcion, "Categoria", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-8">
+                        <div class="dropdown">
+                            <inpu class="btn btn-default dropdown-toggle" type="button" id="movimiento"
+                                  name="movimiento"
+                                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                               {{categoriaSeleccionada.descripcion =="" ? 'Seleccione una categoría' : categoriaSeleccionada.descripcion}}
+
+                                <span class="caret"></span>
+                            </inpu>
+                            @Html.TextBoxFor(m => m.movimiento, new { @class = "form-control ocultar",
+                           @ng_model = "categoriaSeleccionada.descripcion", @maxLength = "50" })
+                            <ul class="dropdown-menu" ng-init="cargarCategorias()">
+                                <li ng-repeat="a in categorias">
+                                    <a ng-click="cambiarCategoria(a)" ng-class="{true:'itemSeleccionado'}[a.seleccionado]">{{a.descripcion}}</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                   
+                                    <a class="referencia" href="" data-toggle="modal"  data-target="#categoriaModal">
+                                       Crear nuevo
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        </div>
+                   </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.descripcion, "Descripción", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-8">
+                        @Html.TextBoxFor(m => m.descripcion, new { @class = "form-control", @maxlength = "500" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.precio, "Monto", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-4">
+                        @Html.TextBoxFor(m => m.precio, new { @class = "form-control numero", @maxLength = "32" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.fecha, "Fecha", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-3_5">
+                        @Html.TextBoxFor(m => m.fecha, new { @class = "form-control", @Value = @DateTime.Now.ToString("dd/MM/yyyy") })
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    @Html.ValidationSummary(false, "", new { @class = "text-danger col-md-offset-2 text-left" })
+
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <input type="submit" class="btn btn-primary" value="Guardar" />
+
+                </div>
+            </div>
+
+        }
+
+                </div>
+
+                @section Scripts {
+                    @Scripts.Render("~/bundles/jqueryval")
+                }
+
+
+
+

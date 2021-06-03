@@ -1,0 +1,408 @@
+-----------Exception Details on  4/25/2020 5:13:29 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:13:29 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\UserPermissions.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:15:05 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:15:05 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:15:50 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:15:50 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:21:20 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:21:20 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:22:04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:22:04 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:23:22 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:23:22 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:24:46 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:24:46 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:24:46 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:24:46 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:26:26 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:26:26 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:26:26 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:26:26 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:29:04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:29:04 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:29:15 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:29:15 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:31:29 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:31:29 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:31:45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:31:45 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:31:48 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:31:48 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:32:55 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:32:55 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/25/2020 5:37:36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/25/2020 5:37:36 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : Could not compile the mapping document: D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\categoria.hbm.xml
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

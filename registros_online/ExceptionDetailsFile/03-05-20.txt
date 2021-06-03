@@ -1,0 +1,48 @@
+-----------Exception Details on  5/3/2020 1:09:51 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/3/2020 1:09:51 PM
+
+Error Line Number : ine 186
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+ Error Page Url: http://localhost:6060/usuario/desencriptar?id_user=59&valor=1
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/3/2020 1:12:29 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/3/2020 1:12:29 PM
+
+Error Line Number : ine 186
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+ Error Page Url: http://localhost:6060/usuario/desencriptar?id_user=59&valor=1
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

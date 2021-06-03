@@ -1,0 +1,408 @@
+-----------Exception Details on  4/23/2020 3:47:03 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 3:47:03 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : unknown class registros_online.Models.consultaNativa, registros_online
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 3:52:08 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 3:52:08 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : unknown class registros_online.Models.consultaNativa, registros_online
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 3:56:07 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 3:56:07 PM
+
+Error Line Number : ine 448
+
+Error Message: HibernateException
+
+Exception Type: NHibernate.HibernateException
+
+Error Location : Errors in named queries: {consultaNativa}{GetCodePermission}
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 3:59:06 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 3:59:06 PM
+
+Error Line Number : ine 448
+
+Error Message: HibernateException
+
+Exception Type: NHibernate.HibernateException
+
+Error Location : Errors in named queries: {consultaNativa}{GetCodePermission}
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 4:08:34 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 4:08:34 PM
+
+Error Line Number : ine 448
+
+Error Message: HibernateException
+
+Exception Type: NHibernate.HibernateException
+
+Error Location : Errors in named queries: {consultaNativa}{GetCodePermission}
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 4:09:25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 4:09:25 PM
+
+Error Line Number : ine 448
+
+Error Message: HibernateException
+
+Exception Type: NHibernate.HibernateException
+
+Error Location : Errors in named queries: {consultaNativa}{GetCodePermission}
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 4:10:10 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 4:10:10 PM
+
+Error Line Number : ine 448
+
+Error Message: HibernateException
+
+Exception Type: NHibernate.HibernateException
+
+Error Location : Errors in named queries: {consultaNativa}{GetCodePermission}
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 4:11:50 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 4:11:50 PM
+
+Error Line Number : ine 448
+
+Error Message: HibernateException
+
+Exception Type: NHibernate.HibernateException
+
+Error Location : Errors in named queries: {consultaNativa}{GetCodePermission}
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 4:13:41 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 4:13:41 PM
+
+Error Line Number : ine 448
+
+Error Message: HibernateException
+
+Exception Type: NHibernate.HibernateException
+
+Error Location : Errors in named queries: {consultaNativa}{GetCodePermission}
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 4:15:31 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 4:15:31 PM
+
+Error Line Number : ine 448
+
+Error Message: HibernateException
+
+Exception Type: NHibernate.HibernateException
+
+Error Location : Errors in named queries: {consultaNativa}{GetCodePermission}
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 4:26:59 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 4:26:59 PM
+
+Error Line Number : ine 448
+
+Error Message: HibernateException
+
+Exception Type: NHibernate.HibernateException
+
+Error Location : Errors in named queries: {consultaNativa}{GetCodePermission}
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 4:41:03 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 4:41:03 PM
+
+Error Line Number : ine 448
+
+Error Message: MappingException
+
+Exception Type: NHibernate.MappingException
+
+Error Location : D:\google drive\codigos\registros_online\TFS\registros_online\registros_online\bin\NHibernate\Mapping\NativeQueries.hbm.xml(15,13): XML validation error: The 'column' attribute is not declared.
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 4:41:56 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 4:41:56 PM
+
+Error Line Number : ine 448
+
+Error Message: HibernateException
+
+Exception Type: NHibernate.HibernateException
+
+Error Location : Errors in named queries: {consultaNativa}
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 4:43:04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 4:43:04 PM
+
+Error Line Number : ine 448
+
+Error Message: GenericADOException
+
+Exception Type: NHibernate.Exceptions.GenericADOException
+
+Error Location : could not load an entity: [registros_online.Models.ErrorDescription#2][SQL: SELECT errordescr0_.Id as Id1_0_, errordescr0_.Description as Descript2_1_0_, errordescr0_.NullDate as NullDate1_0_ FROM dbo.ErrorDescription errordescr0_ WHERE errordescr0_.Id=?]
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 5:13:34 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 5:13:34 PM
+
+Error Line Number : ine 448
+
+Error Message: GenericADOException
+
+Exception Type: NHibernate.Exceptions.GenericADOException
+
+Error Location : could not load an entity: [registros_online.Models.ErrorDescription#2][SQL: SELECT errordescr0_.Id as Id1_0_, errordescr0_.Description as Descript2_1_0_, errordescr0_.NullDate as NullDate1_0_ FROM dbo.ErrorDescription errordescr0_ WHERE errordescr0_.Id=?]
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 5:18:34 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 5:18:34 PM
+
+Error Line Number : ine 448
+
+Error Message: GenericADOException
+
+Exception Type: NHibernate.Exceptions.GenericADOException
+
+Error Location : could not load an entity: [registros_online.Models.ErrorDescription#2][SQL: SELECT errordescr0_.Id as Id11_0_, errordescr0_.Description as Descript2_11_0_, errordescr0_.NullDate as NullDate11_0_ FROM dbo.ErrorDescription errordescr0_ WHERE errordescr0_.Id=?]
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  4/23/2020 5:22:21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 4/23/2020 5:22:21 PM
+
+Error Line Number : ine 448
+
+Error Message: GenericADOException
+
+Exception Type: NHibernate.Exceptions.GenericADOException
+
+Error Location : could not load an entity: [registros_online.Models.ErrorDescription#2][SQL: SELECT errordescr0_.Id as Id1_0_, errordescr0_.Description as Descript2_1_0_, errordescr0_.NullDate as NullDate1_0_ FROM dbo.ErrorDescription errordescr0_ WHERE errordescr0_.Id=?]
+
+ Error Page Url: http://localhost:6060/usuario/CheckPermission?usuario=53
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
