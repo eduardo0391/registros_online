@@ -10,7 +10,7 @@
       <property name="connection.driver_class">NHibernate.Driver.SqlClientDriver</property>
 
       <!--Localhost-->
-      <property name="connection.connection_string">Data Source= LAPTOP-IKTL5T1N;Initial Catalog=eduardodb;Integrated Security=False;User ID=edu;Password=bolpesa2;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False</property>
+      <property name="connection.connection_string">Data Source= LAPTOP-IKTL5T1N;Initial Catalog=RegistrosOnline;Integrated Security=False;User ID=edu;Password=bolpesa2;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False</property>
 
       <!--servidor azure-->
       <!--<property name="connection.connection_string">Data Source= basededatos0391.database.windows.net;Initial Catalog=eduardodb;Integrated Security=False;User ID=eduardo0391;Password=R4M0N.0391;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False</property>-->
